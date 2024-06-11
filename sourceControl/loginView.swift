@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var username: String = "usernamme"
-    @State private var password: String = "password"
+    @State private var username: String = ""
+    @State private var password: String = ""
 
     var body: some View {
         VStack(spacing: 20) {
@@ -37,7 +37,7 @@ struct LoginView: View {
                     .foregroundColor(.white)
                     .padding()
                     .frame(width: 200, height: 50)
-                    .background(Color.pink)
+                    .background(Color.red)
                     .cornerRadius(10)
             }
             Text("Forgot Passowrd?")
