@@ -18,6 +18,16 @@ struct ContentView: View {
             Text("My Love")
                 .font(.largeTitle)
                 .fontWeight(.bold)
+            Button(action: {}, label: {
+                Text("SUBSCRIBE NOW")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .accentColor(.white)
+                    .frame(height: 50)
+                    .padding()
+                    .background(Color.red)
+                    .cornerRadius(24)
+            })
         }
         .padding()
     }
