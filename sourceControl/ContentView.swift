@@ -19,7 +19,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
             Button(action: {}, label: {
-                Text("SUBSCRIBE NOW")
+                Text("SUBSCRIBE")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .accentColor(.white)
