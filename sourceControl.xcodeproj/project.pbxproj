@@ -14,6 +14,7 @@
 		5B1B373A2C17527E0028001E /* sourceControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B37392C17527E0028001E /* sourceControlTests.swift */; };
 		5B1B37442C17527E0028001E /* sourceControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B37432C17527E0028001E /* sourceControlUITests.swift */; };
 		5B1B37462C17527E0028001E /* sourceControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B37452C17527E0028001E /* sourceControlUITestsLaunchTests.swift */; };
+		5B688BD72C18385C005F4F81 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B688BD62C18385C005F4F81 /* loginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5B1B373F2C17527E0028001E /* sourceControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sourceControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1B37432C17527E0028001E /* sourceControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sourceControlUITests.swift; sourceTree = "<group>"; };
 		5B1B37452C17527E0028001E /* sourceControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sourceControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B688BD62C18385C005F4F81 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5B1B372A2C17527B0028001E /* ContentView.swift */,
 				5B1B372C2C17527E0028001E /* Assets.xcassets */,
 				5B1B372E2C17527E0028001E /* Preview Content */,
+				5B688BD62C18385C005F4F81 /* loginView.swift */,
 			);
 			path = sourceControl;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1B372B2C17527B0028001E /* ContentView.swift in Sources */,
+				5B688BD72C18385C005F4F81 /* loginView.swift in Sources */,
 				5B1B37292C17527B0028001E /* sourceControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
