@@ -1,14 +1,22 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var username: String = ""
-    @State private var password: String = ""
+    @State private var username: String = "usernamme"
+    @State private var password: String = "password"
 
     var body: some View {
         VStack(spacing: 20) {
-            Text("Login")
-                .font(.largeTitle)
-                .padding(.bottom, 40)
+
+            HStack(alignment: .center, spacing: 20) {
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 26)
+                Spacer()
+                Text("Log in / Sign up")
+                    .font(.headline)
+            }
+            .padding()
             
             TextField("Username", text: $username)
                 .padding()
@@ -32,6 +40,8 @@ struct LoginView: View {
                     .background(Color.blue)
                     .cornerRadius(10)
             }
+            Text("Forgot Passowrd?")
+                .font(.headline)
             
             Spacer()
         }
